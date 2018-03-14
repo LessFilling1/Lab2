@@ -4,6 +4,8 @@
 
 #include "revert_string.h"
 
+extern void RevertString(char*);
+
 void testRevertString(void) {
   char simple_string[] = "Hello";
   char str_with_spaces[] = "String with spaces";

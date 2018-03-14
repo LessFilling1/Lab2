@@ -1,0 +1,4 @@
+gcc -c swap.h; gcc -c swap.c; gcc -c main.c; gcc -c revert_string.h
+
+gcc -o swap swap.h swap.c main.c
+./swap
